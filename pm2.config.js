@@ -1,7 +1,7 @@
 const grab = process.env.SITE
   ? `npm run grab -- --site=${process.env.SITE} ${process.env.CLANG ? `--lang=${process.env.CLANG}` : ''
   } --output=public/guide.xml`
-  : 'npm run grab -- --channels=sites/sky.de/sky.de.channels.xml --output=public/guide.xml --days=1'
+  : 'npm run grab -- --channels=sites/epgshare01.online/epgshare01.online_DE1.channels.xml --output=public/guide.xml --days=1'
 
 
 const apps = [
